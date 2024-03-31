@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D09SQHMTXT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D09SQHMTXT');
+</script>
+	<link rel="shortcut icon" type="png" href="../images/icon/idea.png">
+	<title>Quiz on S.M.A.R.T</title>
+	<link rel="stylesheet" type="text/css" href="quizStyle.css">
+	<script type="text/javascript" src="../script.js"></script>
+	<script id="convertful-api" src="https://app.convertful.com/Convertful.js?owner=77981" async></script>
+</head>
+<body>
+	
+<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="../images/icon/idea.png" style="width: 100px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="jee.html"><img src="../images/courses/d1.png" class="icon">JEE</a></li>
+				<li><a href="gate.html"><img src="../images/courses/paper.png" class="icon">GATE</a></li>
+				<li><a href="computer_courses.html"><img src="../images/courses/computer.png" class="icon">Computer Courses</a></li>
+				<li><a href="computer_courses.html#data"><img src="../images/courses/data.png" class="icon">Data Structures</a></li>
+				<li><a href="computer_courses.html#algo"><img src="../images/courses/algo.png" class="icon">Algorithm</a></li>
+				<li><a href="computer_courses.html#projects"><img src="../images/courses/projects.png" class="icon">Projects</a></li>
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="search" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+	
+
+<!-- MAIN Heading of Page -->
+	<div class="title" id="title">
+		<span>Daily Quiz on S.M.A.R.T</span>
+		<div class="shortdesc"><br>
+			<p>If you think education is expensive, try ignorance</p>
+		</div>
+		<button onclick="startquiz()">Start Now</button>
+	</div>
+
+
+<div class="panel" id="panel">
+	
+	<div class="left-side" id="left">
+		<ul>
+			<li onclick="quizt(1)">HOME</li>
+			<li onclick="quizt(2)">JEE Mains</li>
+			<li onclick="quizt(3)">JEE Advanced</li>
+			<li onclick="quizt(4)">GATE</li>
+			<li onclick="quizt(5)">C/C++</li>
+			<li onclick="quizt(6)">Java</li>
+			<li onclick="quizt(7)">Python</li>
+			<li onclick="quizt(8)">JavaScript</li>
+			<li onclick="quizt(9)">Data Structures</li>
+			<li onclick="quizt(10)">Algorithm</li>
+			<li onclick="quizt(11)">Interview Questions</li>
+		</ul>
+	</div>
+	
+	<div class="right-side" id="right">
+		<div id="quiz-container">
+			
+			<div id="f1"><div class="quiz-frame main-frame"></div></div>
+
+			<div id="f2"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdUiBUdK8TwOAwXQp9S-Th1nf0ACDWxf-kKYMLfLzxHeLD-0w/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+			
+			<div id="f3"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdUiBUdK8TwOAwXQp9S-Th1nf0ACDWxf-kKYMLfLzxHeLD-0w/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+			
+			<div id="f4"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSejvB1njj2sAnZXIdBX4pvTUwXbxU2h-rjqMjMAX5mGjlgecg/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+			<div id="f5"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSccEYf2NBnWGkZTveIJgGjzU4WCYGlqI1-J7eDiMs7X_F0utQ/viewform?usp=sf_link"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></iframe></div>
+			
+			<div id="f6"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdvxKn-eElb5J4PksaiKZCQQpWAXka28_0zoDi05XfKnZhk8g/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+			
+			<div id="f7"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSecl4yjHQmp2UYPUCgXAW3ZLlT2DvC9GeTjzWJIxdl_mUwMhw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+			<div id="f8"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSfQytsT9_e4r6Y9BjlwCVDeg8VK-bcv_Gapm2UC5r_edSFsVQ/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+			<div id="f9"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSejvB1njj2sAnZXIdBX4pvTUwXbxU2h-rjqMjMAX5mGjlgecg/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+			
+			<div id="f10"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSc4p9cwbvXWxUeyT8UKTScEiTU5Q5BDJY_oHpx9CU7Bd1L9lg/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+			<div id="f11"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSfyjo13awi2qEe8EDY3HUMK9p5LVULVvAai6Itlwvh847qIiw/viewform?usp=sf_link" frameborder="0" marginheiclass="quiz-frame" ght="0" marginwidth="0">Loading…</iframe></div>
+
+		</div>
+	</div>
+
+</div>
+
+	<script type="text/javascript" src="../script.js"></script>
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/65a7f1de0ff6374032c16de7/1hkc0hjpe';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+		</script>
+</body>
+</html>
